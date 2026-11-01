@@ -57,6 +57,8 @@ class CartInvoicePrinter{
   
 };
 
+
+// Open Closed Principle (OCP) - SOLID Principle: Open for the Extension and closed for the modification of the class.
 class CartDatabaseStorage{
   private:
   ShoppingCart * S1;
